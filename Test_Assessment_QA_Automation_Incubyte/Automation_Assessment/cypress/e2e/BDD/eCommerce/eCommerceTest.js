@@ -40,5 +40,5 @@ When("The user the email_Id and password", ()=>{
     login_Page.enter_credentials(email, password)
 })
 Then("Validate successfully Logged-in Message", ()=>{
-    login_Page.validate_url()
+    login_Page.validate_url() 
 })
